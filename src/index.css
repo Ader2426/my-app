@@ -1,0 +1,50 @@
+@import "bootstrap/dist/css/bootstrap.css";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+ul > li {
+  list-style: none;
+  padding: 0rem 2rem;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0rem;
+  margin: 0rem;
+}
+a {
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #783937ff;
+
+  padding: 0.5rem;
+}
+.logo {
+  float: left;
+  padding-bottom: 1rem;
+}
+.underline {
+  border-bottom: 0.4px solid gray;
+  width: 15%;
+  margin: 0.9rem auto;
+}
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.item {
+  min-height: 20rem;
+  min-width: 30rem;
+}
+.item img {
+  width: 25rem;
+  height: 20rem;
+  pointer-events: none;
+  border-radius: 1.2rem;
+}
+.carousel {
+  cursor: grab;
+  margin: 0% 20%;
+  overflow: hidden;
+}
+
